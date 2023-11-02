@@ -42,7 +42,6 @@ footer {
     background: #D9D9D9;
 }
 
-
 #sec-who {
     display: grid;
     grid-template-columns: 1fr;
@@ -75,4 +74,125 @@ footer {
     width: 500px;
     align-items: center;
     text-align: center;
+
+#sec-what{
+    background-color: #DAFFBC;
+    display: grid;
+    grid-template-rows: 2fr 5fr;
+}
+
+#sec-what span{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    gap: 150px;
+}
+
+#sec-what p {
+    width: 500px;
+
+    font-size: 1.35rem;
+    font-weight: 510;
+
+    text-align: center;
+}
+
+#sec-discover {
+    background-image: url("../assets/fondo.png");
+}
+
+#sec-discover h2 {
+    font-size: 5.7rem;
+    font-weight: 700;
+}
+
+#sec-discover p {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+#sec-discover button{
+    background-color: #75D69B;
+
+    color: white;
+
+    cursor: pointer;
+
+    border-radius: 50px;
+    border-width: 2px;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    padding: 20px;
+
+.navbar {
+    width: 100%;
+    height: 130px;
+
+    display: flex;
+    flex-direction: row;
+
+    padding: 0px 20px;
+
+    background-color: #3CD771;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color: black;
+}
+
+.logo h2{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.divider {
+    flex: 1 1 0;
+}
+
+.navigation {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.navigation a{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: white;
+
+    /* text-shadow: 0.2rem 0.3rem 0.5rem black; */
+    text-decoration: underline white ;
+    text-underline-offset: 8px;
+}
+
+.navigation a:hover {
+    font-size: 1.3rem;
+    text-decoration-thickness: 5px;
+}
+
+.navigation .login a{
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 15px;
+
 }
