@@ -42,6 +42,39 @@ footer {
     background: #D9D9D9;
 }
 
+#sec-who {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 5fr;
+
+    background-color: #F1F4EE;
+}
+
+#sec-who div{
+    height: 80%;
+    padding-inline: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+#sec-who img {
+    width: 550px;
+}
+
+#sec-who span {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec-who p{
+    width: 500px;
+    align-items: center;
+    text-align: center;
+
 #sec-what{
     background-color: #DAFFBC;
     display: grid;
@@ -161,4 +194,5 @@ footer {
     border: 2px solid black;
     text-decoration: none;
     padding: 15px;
+
 }
